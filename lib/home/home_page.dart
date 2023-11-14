@@ -24,7 +24,7 @@ class _HomePageState extends State<HomePage> {
         ],
       ),
       body: ListView.builder(
-        padding: EdgeInsets.all(20),
+        padding: const EdgeInsets.all(20),
         itemCount: newsFakeList.length,
         itemBuilder: (context, index) {
           return NewsCard(newsFakeList[index]);
